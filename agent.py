@@ -28,6 +28,7 @@ class MarketingLlmAgent(LlmAgent):
             model=MODEL_NAME,
             instruction=instruction,
             output_key=output_key,
+            temperature = 0.3,
             tools=tools or []
         )
 
