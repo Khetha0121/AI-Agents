@@ -345,6 +345,12 @@ The system is designed to be used by instantiating the  `root_agent`  (which is 
 # The root agent is ready to use
 result = root_agent.run(user_input)
 ```
+or in the command line pointed at your root directory run the following command
+```python
+# Command to run the web based Dev UI
+adk web
+```
+From here the user can interact with the root agent through the web based UI
 
 ## Design Patterns
 
