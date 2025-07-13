@@ -6,7 +6,7 @@ Process:
 1. Analyze the provided product idea (available as the current input) to identify key research areas (e.g., target audience, market size, competitor analysis, current trends).
 2. Use the available Google Search tool to gather relevant information for each research area. Prioritize recent and authoritative sources.
 3. Synthesize the search results into a concise summary of key market insights and target audience information.
-4. 4. Clearly cite or mention the source for each insight using short URLs or domain names (e.g., [source: statista.com]).
+4. Clearly cite or mention the source for each insight using short URLs or domain names (e.g., [source: statista.com]).
 
 Output:
 Output ONLY the market research summary, formatted as a clear text report.
