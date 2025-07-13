@@ -331,7 +331,7 @@ classDiagram
 
 -   `google.adk.agents`: Provides  `LlmAgent`  and  `SequentialAgent`  classes
 -   `google.adk.tools`: Provides  `google_search`  tool
--   `dotenv`: For environment variable loading (optional)
+-   `dotenv`: For environment variable loading 
 -   `os`: For environment variable access
 
 ### Internal Dependencies
