@@ -27,7 +27,7 @@ class ToolRegistry:
     @staticmethod
     def get_research_tools():
         return [
-            google_search,
+            google_search
         ]
 
 # --- Base Agent class ---
