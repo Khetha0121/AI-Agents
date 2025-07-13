@@ -20,6 +20,16 @@ from marketing_agents.instructions import (
     CAMPAIGN_ORCHESTRATOR_INSTRUCTION
 )
 
+# TOOL REGISTRY
+
+# Multiple tool integrations
+class ToolRegistry:
+    @staticmethod
+    def get_research_tools():
+        return [
+            google_search,
+        ]
+
 # --- Base Agent class ---
 class MarketingLlmAgent(LlmAgent):
     def __init__(self, name, instruction, output_key, tools=None):
@@ -28,7 +38,6 @@ class MarketingLlmAgent(LlmAgent):
             model=MODEL_NAME,
             instruction=instruction,
             output_key=output_key,
-            temperature = 0.3,
             tools=tools or []
         )
 
@@ -37,7 +46,7 @@ market_research_agent = MarketingLlmAgent(
     name="MarketResearcher",
     instruction=MARKET_RESEARCH_INSTRUCTION,
     output_key="market_research_summary",
-    tools=[google_search]
+    tools=ToolRegistry.get_research_tools()
 )
 
 messaging_strategist_agent = MarketingLlmAgent(
