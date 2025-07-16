@@ -353,12 +353,6 @@ adk web
 ```
 From here the user can interact with the root agent through the web based UI
 
-## Design Patterns
-
-1.  **Factory Pattern**:  `ToolRegistry`  acts as a factory for tool collections
-2.  **Template Method**:  `MarketingLlmAgent`  provides a template for creating specialized agents
-3.  **Composite Pattern**:  `SequentialAgent`  composes multiple sub-agents
-4.  **Strategy Pattern**: Each agent implements a specific strategy for its domain
 
 ## Hallucination Mitigation
 
