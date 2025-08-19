@@ -408,3 +408,7 @@ Formatter: "Do not invent or add any new information"
 -   Falls back to default model if environment loading fails
 -   Provides empty tool lists as defaults
 -   Warns users about missing dependencies
+
+  
+### 8.  Video Walkthrough
+https://drive.google.com/file/d/1_iWEWKR_uPeKmiM95Bbl4ZL01GS6EeJT/view?usp=gmail
